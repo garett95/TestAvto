@@ -867,11 +867,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fedor Andreevich\\source\\repos\\Test\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\Fedor Andreevich\\Desktop\\git\\TestAvto\\TestAvto\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\Fedor Andreevich\\source\\repos\\Test\\Test\\Test.csproj",
+      "projectPath": "C:\\Users\\Fedor Andreevich\\Desktop\\git\\TestAvto\\TestAvto\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\Fedor Andreevich\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fedor Andreevich\\source\\repos\\Test\\Test\\obj\\",
+      "outputPath": "C:\\Users\\Fedor Andreevich\\Desktop\\git\\TestAvto\\TestAvto\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fedor Andreevich\\AppData\\Roaming\\NuGet\\NuGet.Config",

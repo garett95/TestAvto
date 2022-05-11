@@ -11,6 +11,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Test.Application;
+using Test.Database;
+using Test.Infrastructure;
 
 namespace Test
 {
@@ -20,13 +23,16 @@ namespace Test
         {
             Configuration = configuration;
         }
-
+  
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddTransient<IApplicationCreator, ApplicationCreator>();
+            services.AddTransient<IRepository, Repository>();
+            services.AddTransient<ApplicationContext>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

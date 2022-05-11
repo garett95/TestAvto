@@ -1,36 +1,71 @@
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\appsettings.json
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Test.exe
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Test.deps.json
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Test.runtimeconfig.json
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Test.runtimeconfig.dev.json
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Test.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\ref\Test.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Test.pdb
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\Test.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\Test.AssemblyInfoInputs.cache
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\Test.AssemblyInfo.cs
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\Test.csproj.CoreCompileInputs.cache
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\Test.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\Test.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\staticwebassets\Test.StaticWebAssets.Manifest.cache
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\staticwebassets\Test.StaticWebAssets.xml
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\scopedcss\bundle\Test.styles.css
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\Test.RazorTargetAssemblyInfo.cache
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\Test.csproj.CopyComplete
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\Test.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\ref\Test.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\Test.pdb
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\Test.genruntimeconfig.cache
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Npgsql.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Fedor Andreevich\source\repos\Test\Test\obj\Debug\net5.0\Test.csproj.AssemblyReference.cache
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/appsettings.Development.json
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/appsettings.json
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Test.exe
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Test.deps.json
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Test.runtimeconfig.json
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Test.runtimeconfig.dev.json
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Test.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/ref/Test.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Test.pdb
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Microsoft.OpenApi.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/Test.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/Test.AssemblyInfoInputs.cache
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/Test.AssemblyInfo.cs
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/Test.csproj.CoreCompileInputs.cache
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/Test.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/Test.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/staticwebassets/Test.StaticWebAssets.Manifest.cache
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/staticwebassets/Test.StaticWebAssets.xml
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/scopedcss/bundle/Test.styles.css
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/Test.RazorTargetAssemblyInfo.cache
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/Test.csproj.CopyComplete
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/Test.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/ref/Test.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/Test.pdb
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/Test.genruntimeconfig.cache
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Npgsql.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+C:/Users/Fedor Andreevich/source/repos/Test/Test/obj/Debug/net5.0/Test.csproj.AssemblyReference.cache
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/appsettings.Development.json
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/appsettings.json
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Test.deps.json
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Test.runtimeconfig.json
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Test.runtimeconfig.dev.json
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Test.dll
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/ref/Test.dll
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Test.pdb
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Npgsql.dll
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/asmbatyan/Desktop/t/Test/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/Test.csproj.AssemblyReference.cache
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/Test.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/Test.AssemblyInfoInputs.cache
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/Test.AssemblyInfo.cs
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/Test.csproj.CoreCompileInputs.cache
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/Test.MvcApplicationPartsAssemblyInfo.cs
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/Test.MvcApplicationPartsAssemblyInfo.cache
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/staticwebassets/Test.StaticWebAssets.Manifest.cache
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/staticwebassets/Test.StaticWebAssets.xml
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/scopedcss/bundle/Test.styles.css
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/Test.RazorTargetAssemblyInfo.cache
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/Test.csproj.CopyComplete
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/Test.dll
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/ref/Test.dll
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/Test.pdb
+/Users/asmbatyan/Desktop/t/Test/obj/Debug/net5.0/Test.genruntimeconfig.cache

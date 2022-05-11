@@ -10,13 +10,13 @@ namespace Test.Database
 {
     public class ApplicationContext : DbContext
     {
-        public DbSet<Buyer> Buyers  { get; set; }
-        public DbSet<Product> Products { get; set; }
-        public DbSet<Sale> Sales { get; set; }
+        public DbSet<BuyerDto> Buyers  { get; set; }
+        public DbSet<ProductDto> Products { get; set; }
+        public DbSet<SaleDto> Sales { get; set; }
         [NotMapped]
-        public DbSet<SaleData> SaleDatas { get; set; }
-        public DbSet<SalesPoint> SalesPoints { get; set; }
-        public DbSet<ProvidedProduct> providedProducts { get; set; }
+        public DbSet<SaleDataDto> SaleDatas { get; set; }
+        public DbSet<SalesPointDto> SalesPoints { get; set; }
+        public DbSet<ProvidedProduct> ProvidedProducts { get; set; }
 
 
 
@@ -28,7 +28,7 @@ namespace Test.Database
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=test;Username=postgres;Password=123");
+            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=test;Username=postgres;Password=pwd");
         }
 
     }

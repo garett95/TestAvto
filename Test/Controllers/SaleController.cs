@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Test.Application;
 using Test.Database;
-using Test.Infrastructure.Mappings;
 using Test.Models;
 
 namespace Test.Controllers
@@ -14,40 +13,36 @@ namespace Test.Controllers
     [Route("[controller]")]
     public class SaleController : ControllerBase
     {
-  
+        private readonly IApplicationCreator _applicationCreator;
+
         private readonly ILogger<SaleController> _logger;
 
 
-        public SaleController(ILogger<SaleController> logger)
+        public SaleController(
+            ILogger<SaleController> logger,
+            IApplicationCreator applicationCreator)
         {
-      
+            _applicationCreator = applicationCreator;
             _logger = logger;
         }
 
         [HttpGet]
-        public IEnumerable<Buyer> Get()
+        public IEnumerable<BuyerDto> Get()
         {
             using (ApplicationContext db = new ApplicationContext())
             {
-                // получаем объекты из бд и выводим на консоль
                 var buyers = db.Buyers.ToList();
                 return buyers;
             }
         }
+
         [HttpPost]
         [Route("/buyer")]
-        public IActionResult Put()
+        public async Task<IActionResult> Put(
+            string name)
         {
-            using (ApplicationContext db = new ApplicationContext())
-            {
-                // создаем два объекта User
-                Buyer buyer1 = new Buyer { Name = "Tom" };
-                Buyer buyer2 = new Buyer { Name = "Alice" };
+            await _applicationCreator.CreateBuyer(name);
 
-                // добавляем их в бд
-                db.Buyers.AddRange(buyer1, buyer2);
-                db.SaveChanges();
-            }
             return Ok();
         }
 
@@ -55,20 +50,19 @@ namespace Test.Controllers
         [HttpPost]
         [Route("/sale")]
         public IActionResult Sale(
-            //[FromQuery]int  salesPointId,
-            //[FromQuery]int  buyerId,
             [FromBody] SaleRequest request)
         {
             using (ApplicationContext db = new ApplicationContext())
             {
-                var sale = new Sale
+                var sale = new SaleDto
                 {
                     Date = request.Date,
                     SalesPointId = request.SalesPointId,
                     BuyerId = request.BuyerId,
-                    SalesData = new List<SaleData>()
+                    SalesData = new List<SaleDataDto>()
                     {
-                        new SaleData{
+                        new SaleDataDto
+                        {
                             ProductId = request.ProductId,
                             ProductQuantity = request.ProductQuantity
                         }
@@ -78,16 +72,16 @@ namespace Test.Controllers
                 db.Sales.AddRange(sale);
                 db.SaveChanges();
             }
+
             return Ok();
         }
 
         [HttpPost]
         [Route("/product")]
         public IActionResult PostProduct(
-           [FromBody] ProductRequest request)
+            [FromBody] ProductRequest request)
         {
-            //var products = request.MapToModel();
-            var product = new Product
+            var product = new ProductDto
             {
                 Name = request.Name,
                 Price = request.Price
@@ -98,20 +92,24 @@ namespace Test.Controllers
                 db.Products.AddRange(product);
                 db.SaveChanges();
             }
+
             return Ok();
         }
+
         [HttpPost]
         [Route("/salePoint")]
         public IActionResult SalesPoint(
-          [FromBody] SalePointRequest request)
+            [FromBody] SalePointRequest request)
         {
             //var products = request.MapToModel();
             var providedProducts = new List<ProvidedProduct>();
-            providedProducts.Add( new ProvidedProduct {
+            providedProducts.Add(new ProvidedProduct
+            {
                 ProductId = request.ProductId,
-                ProductQuantity = request.ProductQuantity});
+                ProductQuantity = request.ProductQuantity
+            });
 
-            var salePoint = new SalesPoint
+            var salePoint = new SalesPointDto
             {
                 Name = request.Name,
                 ProvidedProducts = providedProducts
@@ -122,9 +120,8 @@ namespace Test.Controllers
                 db.SalesPoints.AddRange(salePoint);
                 db.SaveChanges();
             }
+
             return Ok();
         }
-        
-
     }
 }

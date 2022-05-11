@@ -15,8 +15,5 @@ namespace Test.Controllers
 
         public int ProductId { get; set; }
         public int ProductQuantity { get; set; }
-       // public int ProductIdAmount { get; set; }
-        //public decimal TotalAmount { get; set; }
-
     }
 }
